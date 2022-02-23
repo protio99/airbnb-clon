@@ -6,7 +6,12 @@
 body {
   margin: 0;
   background-color: #E5E5E5;
+  font-family: 'Poppins', sans-serif;
+  
  
+}
+p{
+  margin: 0;
 }
 
 .App {

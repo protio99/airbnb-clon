@@ -12,3 +12,87 @@
   margin-left: 30px;
   max-width: 100px;
 }
+
+.hero{
+  display: flex;
+  flex-direction: column;
+}
+
+.hero--img{
+  width: 24.74rem;
+  display: block;
+  margin: 26px auto 31px auto;
+
+}
+
+.hero--text > h1{
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.25rem;
+  
+}
+
+.hero-text-h1{
+  margin: 1px auto 16px 36px;
+}
+
+.hero-text-p{
+  margin: 1px 104px 16px 36px;
+
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  width: 11.06rem;
+  height: 32.56rem;
+  margin-left: 36px;
+}
+
+.card--top > img{
+  width: 100%;
+}
+
+.card--top h2 {
+  font-size: 0.64rem;
+  font-weight: 400;
+}
+
+.card-bottom > p{
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.card--top-ratting >h2{
+  font-size: 12px;
+  margin: 0;
+}
+
+.card--top-ratting img{
+  width: auto;
+  height: 0.875rem;
+  margin: 3px;
+}
+
+.card--top-ratting{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.card--top-state{
+  width: 3.8125rem;
+  display:flex ;
+  align-items: center;
+  justify-content: center;
+  height: 1.25rem;
+  background-color: #FFFFFF;
+  border-radius: 2px;
+  position: absolute;
+  top: 6px;
+  left: 6px;
+}
+
+.card--top{
+  position: relative;
+}

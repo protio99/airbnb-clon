@@ -1,15 +1,16 @@
 //import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import Card from './components/Card';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <Navbar />
-      <div>Photos section</div>
-      <div>Carrusel section</div>
+      <Hero />
+      <Card />
     </div>
   );
 }
 
-export default App;
