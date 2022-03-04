@@ -3,21 +3,31 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Card from './components/Card';
-import katie from './images/image.png';
+//import katie from './images/katie-zaferes.png';
+import data from './data';
 
 export default function App() {
+  
+  var card = data.map(element => {
+
+    return <Card 
+    key = {element.id}
+    imge = {element.coverImg} 
+    ratting ={element.stats.rating} 
+    reviewCountry = {element.stats.reviewCount}
+    location = {element.location}
+    title = {element.title}
+    price = {element.price}/>
+
+  })
+  
   return (
     <div className="App">
       <Navbar />
       <Hero />
-      <Card  
-      imge = {katie}
-      ratting = "5.0"
-      reviewCountry = {6}
-      country = "USA"
-      title = "Life Lessons with Katie Zaferes"
-      price = {136}
-      />
+      <section className='cards-list'>
+        {card}
+      </section>
     </div>
   );
 }

@@ -14,7 +14,7 @@ export default function Card(props){
             <div>
                 <div className='card--top-ratting'>
                     <img src={start}></img>
-                    <h2>{props.ratting} {props.reviewCountry} • {props.country}</h2>
+                    <h2>{props.ratting} {props.reviewCountry} • {props.location}</h2>
                 </div>
                 <div className='card-bottom'> 
                     <p className='card-bottom-tittle'>{props.title}</p>

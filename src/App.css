@@ -44,8 +44,22 @@
   display: flex;
   flex-direction: column;
   width: 11.06rem;
-  height: 32.56rem;
-  margin-left: 36px;
+  height: 19rem;
+  margin-left: 1rem;
+  flex: 0 0 auto; 
+
+}
+
+.cards-list{
+  display: flex;
+  flex-direction: row;
+  height: 20.75rem;
+  flex-wrap: nowrap;
+  
+  gap: 20px;
+  overflow-x: auto;
+  
+ 
 }
 
 .card--top > img{
