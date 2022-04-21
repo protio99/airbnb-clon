@@ -1,11 +1,10 @@
 import React from 'react';
-import photosGroup from '../images/Group 77.png';
 
 export default function Hero(){
     return(
         <div className='hero'>
             <div>
-                <img src={photosGroup} className = 'hero--img'></img>
+                <img src="images/Group 77.png" className = 'hero--img'></img>
             </div>
             <div className='hero-text'>
                 <div className='hero-text-h1'>
